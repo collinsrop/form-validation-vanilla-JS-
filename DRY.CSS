@@ -1,0 +1,43 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+}
+.container{
+	display:flex;
+	flex-direction: column;
+	justify-content: start;
+	border: 0.0175rem solid black;
+	padding: 0.75rem;
+	width: 50%;
+	margin-top: 2rem;
+	border-radius: 0.75rem;
+	box-shadow: 0.75rem 0.75rem 0.75rem black;
+	gap: 2rem;
+	max-width: 100%;
+	height: auto;
+}
+input{
+	max-width: 100%;
+	height: auto;
+	width: 40%;
+	border-radius: 0.75rem;
+	height: auto;
+	font-size: 1rem;
+}
+button{
+	width: 30%;
+	height: 1.5rem;
+	flex-direction: column;
+	align-self: center;
+	justify-self: center;
+	font-size: 1rem;
+	border-radius: 0.75rem;
+	
+}
+#mtr{
+	width: 70%;
+	height: 1.5rem;
+}
